@@ -5,9 +5,9 @@ const WordDetail = React.lazy(() => import('./WordDetail'));
 const WordsContainer = (props) =>{
     if (props.data.length === 0) {
         if (props.checkData) {
-            return <FallbackLoading height="96" span="Loading for words"/>
+            return <FallbackLoading height="96" span="Memuat data database"/>
         } else {
-            return <FallbackLoading height="96" text="Words not found"/>
+            return <FallbackLoading height="96" text="Words tidak ditemukan"/>
         }
     }
     return(

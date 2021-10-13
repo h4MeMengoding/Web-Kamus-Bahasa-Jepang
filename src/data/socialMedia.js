@@ -5,7 +5,7 @@ export const socialMedia = [
         icon: ""
     },
     {
-        path: "https://www.instagram.com",
+        path: "https://www.instagram.com/ilham.shff",
         title: "Instagram",
         icon: ""
     },
@@ -15,7 +15,7 @@ export const socialMedia = [
         icon: ""
     },
     {
-        path: "https://discord.gg/JEKGHRKxzs",
+        path: "https://discord.gg/",
         title: "Discord",
         icon: ""
     }

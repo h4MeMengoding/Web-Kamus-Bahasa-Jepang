@@ -74,7 +74,7 @@ const KanjiDetail = () => {
                     <h2 className="font-bold mb-2 text-3xl text-center">Words</h2>
                     <KanjiWordContainer kanji={kanji} wordsLimit={wordsLimit} sendWordsLength={(wordsLength) => setWordsLength(wordsLength)}/>
                 </div>
-            <button className={((wordsLimit > wordsLength) || wordsLength === 0 ? "hidden " : "")+"transition-colors mt-12 duration-300 mx-auto border-b-2 border-black dark:border-white hover:border-primary dark:hover:border-primary hover:text-primary hover:cursor-pointer"} onClick={() => {setWordsLimit(wordsLimit+5)}}>More Words</button>
+            <button className={((wordsLimit > wordsLength) || wordsLength === 0 ? "hidden " : "")+"transition-colors mt-12 duration-300 mx-auto border-b-2 border-black dark:border-white hover:border-primary dark:hover:border-primary hover:text-primary hover:cursor-pointer"} onClick={() => {setWordsLimit(wordsLimit+5)}}>Kata Lainnya</button>
         </div>
         </>
     )

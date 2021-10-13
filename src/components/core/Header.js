@@ -5,8 +5,8 @@ import { navLinks } from '../../data/navLinks';
 import SearchBox from '../SearchBox';
 import NavLinks from './NavLinks';
 
-import logo from '../../assets/logo-full.svg';
-import logoWhite from '../../assets/logo-full-white.svg';
+import logo from '../../assets/zerohero-black.svg';
+import logoWhite from '../../assets/zerohero-white.svg';
 import logoIcon from '../../assets/logo-icon.svg';
 import logoIconWhite from '../../assets/logo-icon-white.svg';
 

@@ -4,7 +4,7 @@ import BottomNavLink from './BottomNavLink'
 import SearchBox from '../SearchBox'
 
 const BottomNav = () =>{
-    const [searchShow] = useState(false)
+    const [searchShow, setSearchShow] = useState(false)
 
     // const handleSearchShow = () => {
     //     if (searchShow) {

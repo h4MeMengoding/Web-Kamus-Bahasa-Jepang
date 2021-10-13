@@ -13,7 +13,7 @@ const getInitialTheme = _ => {
     }
   
     // If you want to use light theme as the default, return "light" instead
-    return 'light'
+    return 'dark'
 }
 export const ThemeContext = React.createContext()
 

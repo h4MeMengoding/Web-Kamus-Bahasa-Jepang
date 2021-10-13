@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import H1 from '../components/H1'
 
 const Kana = () => {
@@ -11,7 +11,7 @@ const Kana = () => {
             <H1 span={gameIcon} text={"Game"}/>
             <div className="flex flex-col space-y-6">
                 <div className="flex flex-col space-y-4 mx-8">
-                    <Link to="game/pairing-kana" className="text-gray-600 dark:text-gray-300 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-xl py-3 w-full rounded-lg cursor-pointer">
+                    {/* <Link to="game/pairing-kana" className="text-gray-600 dark:text-gray-300 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-xl py-3 w-full rounded-lg cursor-pointer">
                         <span>Pairing Kana</span>
                     </Link>
                     <Link to="game/typerace" className="text-gray-600 dark:text-gray-300 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-xl py-3 w-full rounded-lg cursor-pointer">
@@ -19,13 +19,13 @@ const Kana = () => {
                     </Link>
                     <Link to="game/fallingWords" className="text-gray-600 dark:text-gray-300 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-xl py-3 w-full rounded-lg cursor-pointer">
                         <span>Falling Words</span>
-                    </Link>
+                    </Link> */}
                     {/* <li className="text-gray-600 dark:text-gray-300 bg-gray-200  dark:bg-gray-900  text-xl mx-auto py-3 px-6 rounded-full ">
                         <span>Typeracing</span>
                         <span className="block text-primary text-sm"> Soon </span>
                     </li> */}
                 </div>
-                <span className="text-base max-w-prose  mx-auto">More Games Coming Soon</span>
+                <span className="text-base max-w-prose  mx-auto">Belom ada gamenya, males buate</span>
             </div>
         </div>
     )
