@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import depan from '../assets/update.svg';
 
 import {Fade} from 'react-reveal';
-import ButtonInstalPWA from "../components/ButtonInstalPWA";
 
 const Update = () => {
     useEffect(() => {
