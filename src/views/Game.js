@@ -25,7 +25,8 @@ const Kana = () => {
                         <span className="block text-primary text-sm"> Soon </span>
                     </li> */}
                 </div>
-                <span className="text-base max-w-prose  mx-auto">Belom ada gamenya, males buate</span>
+                <span className="text-base max-w-prose  mx-auto">Belom ada game mobilenya, males buate</span>
+                <span className="text-base max-w-prose  mx-auto">Kalo mau nyoba pake versi desktop</span>
             </div>
         </div>
     )
