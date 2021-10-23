@@ -18,7 +18,6 @@ const Update = () => {
                         <div className="flex flex-col content-start text-center lg:text-left w-11/12 lg:w-3/5 mx-auto">
                             <h1 className="font-black font-head text-3xl lg:text-4xl xl:text-7xl leading-relaxed xl:leading-snug  uppercase"><span className="text-transparent bg-clip-text bg-gradient-to-br from-primary to-red-800 dark:to-red-300">UPDATE YANG AKAN HADIR</span></h1>
                             {/* <p className="text-base lg:text-2xl mt-4 mb-6 lg:mt-8 dark:text-gray-200 w-10/12 lg:leading-normal mx-auto lg:mx-0">Beberapa fitur yang akan hadir pada zero hero, gatau diupdate kapan, fokus sekolah duls ehhehehe.</p> */}
-                            <ButtonInstalPWA/>
                         </div>
                 </section>
             </Fade>
