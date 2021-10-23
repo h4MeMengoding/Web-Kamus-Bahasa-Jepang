@@ -27,12 +27,13 @@ const Update = () => {
                     <hr className="h-1 w-48 bg-primary border-none mx-auto mb-9 lg:mb-12 " />
                     <div className="flex flex-col lg:flex-row gap-8">
                         <div className="mx-auto text-lg my-auto space-y-4">
-                            <p>Beberapa fitur yang akan hadir pada zero hero, gatau diupdate kapan, fokus sekolah duls ehhehehe.</p>
+                            <p>Beberapa fitur yang akan hadir pada zero hero.</p>
                             <ul className="list-disc list-inside space-y-1">
                                 <li>Fitur search button</li>
                                 <li>Query kata berdasarkan abjad</li>
                                 <li>Translate japanse ke indo</li>
                             </ul>
+                            <p>NB : Gatau mau diupdate kapan, fokus sekolah duls ehhehehe.</p>
                         </div>
                     </div>
                 </section>
